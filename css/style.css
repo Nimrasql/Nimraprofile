@@ -1,0 +1,339 @@
+/*Header section*/
+*{
+	margin:0;
+	padding:0;
+}
+html
+{
+	scroll-behavior:smooth;
+}
+.navbar
+{
+    margin: 0px ;
+}
+.navbar-inverse
+{
+	background:black;
+}
+.navbar-inverse .navbar-nav>li>a
+{
+	font-size:26px;
+	font-family:calibri;
+	color:white;
+	padding-right: 19px;
+}
+.navbar-inverse .navbar-nav>li>a:hover
+{
+	color:#f7a9a8;
+}
+
+/* home */
+#home
+{
+	overflow:hidden;
+	padding: 0px;
+}
+.img
+{
+	width: 100% !important; 
+	height:600px !important;
+}
+/*--------About---------*/
+.about
+{
+	font-family:calibri;
+	font-size: 35px;
+	font-weight:bold;
+	padding-bottom: 5px;
+
+}
+/*-----------Education----------*/
+.ph:hover
+{
+	color:rgb(116,232,168);
+}
+.educat
+{
+	font-size: 35px;
+	font-weight:bold;
+	color:black;
+	font-family:calibri light;
+}
+.table th
+{
+	text-align:center;
+	font-size:35px;
+	font-family: calibri light;
+	background: black;
+	color:#FCE4D6;
+
+}
+.table td
+{
+	text-align:center;
+	color:black ;
+	font-size: 25px;
+}
+.table-condensed>thead>tr>th:hover
+{
+	color:#F375A6;
+}
+.table-condensed>tbody>tr>td:hover
+{
+	color:#F375A6;
+}
+.bordered
+{
+	border:6px double black;
+	background: pink;
+	color:black;
+}
+/*------*/
+.button
+{
+	display: inline-block;
+}
+.port img
+{
+	border-radius: 15px;
+}
+ul
+{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.heading.heading-icon
+{
+    display: inline-block;
+}
+.padding-lg
+{
+	display: block;
+	padding-top: 10px;
+}
+
+.practice-area .inner
+{ 
+     border:3px solid #999999; 
+	 text-align:center; 
+	 margin-bottom:28px; 
+	 padding:40px 25px;
+}
+ .block img
+{ 
+   width:148px; 
+   height:148px; 
+   border-radius:100%; 
+}
+.block:hover 
+{
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.3);
+    border: 0;
+}
+
+
+.practice-area .inner img
+{
+	display:inline-block;
+}
+.block
+{ 
+   float:left; 
+   width:100%; 
+   background:#fff; 
+   padding:30px 20px; 
+   text-align:center; 
+   border:3px solid pink;
+   margin: 0 0 10px;
+   border-radius: 10%;
+}
+ .block figure
+{
+   width:148px; 
+   height:148px; 
+   border-radius:100%; 
+   display:inline-block;
+   margin-bottom: 15px;
+}
+
+
+ .block .follow-us
+{
+	margin:20px 0 0;
+}
+ .block .follow-us li
+{ 
+    display:inline-block; 
+	width:auto; 
+	margin:0 5px;
+}
+.main
+{
+	width:100%;
+	height:40%;
+	border:5px #F375A6 solid;
+	background:#fff;
+	text-align:center;
+	border-radius:10px;
+	overflow:hidden;
+	position:relative;
+	transition:0.5s;
+	margin-bottom:28px;
+}
+.main h3
+{
+	font-size:20px;
+	font-weight:700;
+}
+.main p
+{
+	margin-bottom:0;
+}
+.team-back
+{
+	width:100%;
+	height:auto;
+	position:absolute;
+	top:0;
+	left:0;
+	padding:5px 15px 0 15px;
+	text-align:left;
+	background:#fff;
+}
+.team-front
+{
+	width:100%;
+	height:auto;
+	position:relative;
+	z-index:10;
+	background:#fff;
+	padding:15px;
+	bottom:0px;
+	transition: all 0.5s ease;
+}
+.main:hover .team-front
+{
+	bottom:-200px;
+	transition: all 0.5s ease;
+}
+.main:hover
+{
+	border-color:#777;
+	transition:0.5s;
+
+#text1
+{
+
+	border-radius: 0;
+	height: 0px;
+}
+#text2
+{
+
+	border-radius: 0;
+	height: 40px;
+}
+.btn
+{
+	width: 50%;
+	float: left;
+	height: 40px;
+	font-size: 18px;
+}
+.label_001
+{
+
+	font-size: 18px;
+	color: white;
+	font-style: italic;
+}
+.content-header{
+  font-family: 'Oleo Script', cursive;
+  color:#fcc500;
+  font-size: 45px;
+}
+.contact-section
+{
+  padding-top: 40px;
+}
+
+
+.form-group{
+  margin-top: 10px;
+}
+label
+{
+  font-size: 1.3em;
+  line-height: 1em;
+  font-weight: normal;
+}
+.form-control
+{
+  font-size: 1.3em;
+  color: #080808;
+}
+textarea.form-control
+{
+    height: 135px;
+}
+
+
+/*-----------------------------------------*/
+#portfolio 
+{
+    background-color: #F8f8ee;
+}
+
+#portfolio .section-subheading 
+{
+    color: #8c9099;  
+}
+ .thumbnail 
+ {
+    position:relative;
+    overflow:hidden;
+}
+ .caption
+  {
+    position:absolute;
+    top:-100%;
+    right:0;
+    background:rgba(0,0,0,0.489);
+    width:100%;
+    height:100%;
+    padding:2%;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    
+}
+.thumbnail:hover .caption 
+{
+    top:0%;
+}
+
+.timeline
+ {
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+
+.timeline:before
+ {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 2px;
+    margin-left: -1.5px;
+    background-color: #f1f1f1;
+}
+
